@@ -27,13 +27,13 @@ body * {
 			
 a {
 	color:#5AD37A;
+	text-decoration:none;
 }
 
 #page {
 	background:rgba(0, 0, 0, 0.6);
 	margin:0;
-	padding:10% 0 10%;
-	text-align:center;
+	padding:10% 10% 15%;
 }
 
 			.tree, .tree button{
@@ -46,7 +46,6 @@ a {
 				list-style: none outside none;
 			}
 			.tree li a {
-				color:#fff;
 				line-height: 25px;
 			}
 			.tree > ul > li > a {
