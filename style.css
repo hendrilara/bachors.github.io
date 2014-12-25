@@ -26,7 +26,7 @@ body * {
 }
 			
 a {
-	color:#FFA8A8;
+	color:#5AD37A;
 	text-decoration:none;
 }
 
@@ -44,10 +44,10 @@ a.fa{
 	margin-right:10px;
 }
 a:hover{
-	color:#FF7575;
+	color:#fff;
 }
 a.fa:hover{
-	color:#FFA8A8;
+	color:#5AD37A;
 }
 
 			.tree, .tree button{
