@@ -43,6 +43,9 @@ a.fa{
 	color:#fff;
 	margin-right:10px;
 }
+a:hover,a.fa:hover{
+	color:#666;
+}
 
 			.tree, .tree button{
 				margin-bottom:30px;
