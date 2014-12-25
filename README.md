@@ -1,2 +1,2 @@
-bachors.github.io
+http://bachors.github.io
 =================
