@@ -1054,21 +1054,6 @@ Garut, Jawa Barat<br>
 									<p><span class="fa fa-phone"> +62 88806343692</span></p>
 								</span>
 							</li>
-							<li>
-								<span>
-									<div class="form-group">
-										<form id="kontak">
-											<input title="Nama Anda" type="text" name="name" class="form-control" placeholder="Nama*" required >
-											<input title="E-Mail Anda" type="email" name="email" class="form-control" placeholder="E-mail*" required >
-											<input title="WebSite Anda" type="text" name="website" class="form-control" placeholder="Website (Optional)" >
-											<textarea title="Pesan Anda" name="message" class="form-control" placeholder="Pesan*" required ></textarea>
-											<input title="Kirim Pesan" id="kirim" type="submit" value="Kirim" class="btn btn-default">							
-										</form>
-									</div>
-								
-									<div id="sukses"></div>
-								</span>
-							</li>
 						</ul>
 					</li>
 					<li>
@@ -1099,18 +1084,6 @@ Garut, Jawa Barat<br>
 					}, 500);
 					return false;
 				});
-			});
-		
-			var bcr_pesan = jQuery.noConflict();
-			bcr_pesan(document).ready(function(){									 
-				bcr_pesan('#kirim').click(function(){
-					bcr_pesan("#sukses").html('<center><img src="http://ibacor.com/bcr_asset/images/load.gif" alt="Process.."/></center>');
-					bcr_pesan.post("http://ibacor.com/bcr_panels/proses/send.php", bcr_pesan("#kontak").serialize(),  function(response) {
-						bcr_pesan('#sukses').html(response);
-						//$('#success').hide('slow');
-					});
-					return false;										 
-				});									 
 			});
 		</script>
 	</body>
