@@ -92,3 +92,24 @@ a {
 				top: 12px;
 				width: 15px;
 			}
+.btn{
+	background:#5AD37A;
+	border:none;
+	display: inline-block;
+	padding: 8px 14px;
+	color: #ffffff;
+	text-transform: capitalize;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+	background: #222;
+	color: #fff;
+}
