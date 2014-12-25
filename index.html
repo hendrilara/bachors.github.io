@@ -1067,24 +1067,6 @@ Garut, Jawa Barat<br>
 					</li>
 				</ul>
 			</nav>
-			<div id="naek"><a href="#"><span class="fa fa-arrow-up fa-2x" title="Up Up"></span></a></div>
 		</div>
-		<script type="text/javascript">
-			jQuery(document).ready(function ($) {
-				$(window).scroll(function () {
-					if ($(this).scrollTop() > 150) {
-						$('#naek').fadeIn('slow');
-					} else {
-						$('#naek').fadeOut('slow');
-					}
-				});
-				$('#naek').click(function () {
-					$("html, body").animate({
-						scrollTop: 0
-					}, 500);
-					return false;
-				});
-			});
-		</script>
 	</body>
 </html>
