@@ -32,7 +32,8 @@ a {
 #page {
 	background:rgba(0, 0, 0, 0.6);
 	margin:0;
-	padding:20%;
+	padding:10% 0 10%;
+	text-align:center;
 }
 
 			.tree, .tree button{
