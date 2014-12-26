@@ -43,7 +43,7 @@ a.fa{
 	color:#fff;
 	margin-right:20px;
 }
-a:hover{
+a:hover, a .fa{
 	color:#fff;
 }
 a.fa:hover{
