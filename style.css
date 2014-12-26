@@ -50,27 +50,23 @@ a.fa:hover{
 	color:#5AD37A;
 }
 
-#ibacor_repos div.result,
-			#ibacor_gists div.result {
+.result {
 				margin-bottom:30px;
 				display:block;
 				overflow:hidden;
 				*overflow:visible;
 			}
-			#ibacor_repos div.result p,
-			#ibacor_gists div.result p{
+.result p{
 				margin:0
 			}
-			#ibacor_repos div.result p.left,
-			#ibacor_gists div.result p.left{
+p.left{
 				float:left
 			}
-			#ibacor_repos div.result p.right,
-			#ibacor_gists div.result p.right{
+ p.right{
 				float:right
 			}
-			#ibacor_repos div.result a,
-			#ibacor_gists div.result p.right .fa{
+.result a,
+.right .fa{
 				margin-right:15px;
 				text-decoration:none
 			}
