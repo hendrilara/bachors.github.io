@@ -28,8 +28,8 @@ var username = 'bachors';
 					var html = '';
 					$.each(data, function(i, item) {
 						html += '<a href="'+data[i].html_url+'" target="_blank"><div class="result">';
-						html += '<p class="left">'+data[i].description+'</p>';
-						html += '<p class="right"><span class="fa fa-clock-o"> update '+relative_time(data[i].updated_at)+' ago</span><span class="fa fa-comment"> '+addCommas(data[i].comments)+'</span></p>';
+						html += '<p>'+data[i].description+'<br>';
+						html += '<span class="fa fa-clock-o"> update '+relative_time(data[i].updated_at)+' ago</span><span class="fa fa-comment"> '+addCommas(data[i].comments)+'</span></p>';
 						html += '</div></a>';
 					});
 					$('#ibacor_gists').html(html);
